@@ -1,5 +1,5 @@
 <?php
-namespace wubbleyou\yii2\elfinder;
+namespace zxbodya\yii2\elfinder;
 
 use Yii;
 use yii\base\Exception;
@@ -10,7 +10,7 @@ use yii\web\AssetBundle;
 use yii\web\JsExpression;
 use yii\web\View;
 use yii\widgets\InputWidget;
-use wubbleyou\yii2\elfinder\ElFinderAsset;
+use zxbodya\yii2\elfinder\ElFinderAsset;
 
 class ElFinderInput extends InputWidget
 {
