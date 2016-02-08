@@ -1,5 +1,5 @@
 <?php
-namespace zxbodya\yii2\elfinder;
+namespace wubbleyou\yii2\elfinder;
 
 use Yii;
 use yii\base\Exception;
@@ -7,7 +7,7 @@ use yii\helpers\Json;
 use yii\helpers\Url;
 use yii\web\JsExpression;
 use yii\web\View;
-use zxbodya\yii2\tinymce\FileManager;
+use wubbleyou\yii2\tinymce\FileManager;
 
 class TinyMceElFinder extends FileManager
 {

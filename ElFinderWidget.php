@@ -1,5 +1,5 @@
 <?php
-namespace zxbodya\yii2\elfinder;
+namespace wubbleyou\yii2\elfinder;
 
 use Yii;
 use yii\base\Exception;

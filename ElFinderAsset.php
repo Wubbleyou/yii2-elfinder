@@ -1,6 +1,6 @@
 <?php
 
-namespace zxbodya\yii2\elfinder;
+namespace wubbleyou\yii2\elfinder;
 
 use Yii;
 use yii\web\AssetBundle;
@@ -10,7 +10,7 @@ use yii\web\AssetBundle;
  */
 class ElFinderAsset extends AssetBundle
 {
-    public $sourcePath = '@zxbodya/yii2/elfinder/assets';
+    public $sourcePath = '@wubbleyou/yii2/elfinder/assets';
     public $js = [
         'js/elfinder.full.js',
 //        'js/elfinder.min.js',
