@@ -16,7 +16,7 @@ class ElFinderAsset extends AssetBundle
 //        'js/elfinder.min.js',
     ];
     public $css = [
-        'css/elfinder.css'
+        'css/elfinder.full.css'
     ];
     public $depends = [
         'yii\jui\JuiAsset',

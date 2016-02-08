@@ -12,8 +12,11 @@ class ConnectorAction extends Action
 
     public function run()
     {
+        require_once(dirname(__FILE__) . '/php/elFinderConnector.class.php');
+        require_once(dirname(__FILE__) . '/php/elFinderVolumeDriver.class.php');
+        require_once(dirname(__FILE__) . '/php/elFinderVolumeLocalFileSystem.class.php');
         require_once(dirname(__FILE__) . '/php/elFinder.class.php');
-        $fm = new \elFinder($this->settings);
+        $fm = new \elFinderConnector(new \elFinder($this->settings));
         $fm->run();
     }
 
